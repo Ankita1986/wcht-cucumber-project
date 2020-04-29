@@ -1,0 +1,190 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52721787600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to abous us page successfully",
+        "description": "",
+        "id": "about-us-functionality;user-should-navigate-to-abous-us-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 684940900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97309800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "AboutUsTestSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303306300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on close button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnCloseButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1304796400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on about us link",
+            "match": {
+              "location": "AboutUsTestSteps.iClickOnAboutUsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44601600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should navigate to abous us page successfully",
+            "match": {
+              "location": "AboutUsTestSteps.iShouldNavigateToAbousUsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 46372518300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should navigate to jobs and careers page successfully",
+        "description": "",
+        "id": "about-us-functionality;user-should-navigate-to-jobs-and-careers-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 698103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on home page",
+            "match": {
+              "location": "AboutUsTestSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293080900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on close button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnCloseButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1507392400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on about us link",
+            "match": {
+              "location": "AboutUsTestSteps.iClickOnAboutUsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10615067100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on jobs and careers link",
+            "match": {
+              "location": "AboutUsTestSteps.iClickOnJobsAndCareersLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49033300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should navigate to jobs and careers page successfully",
+            "match": {
+              "location": "AboutUsTestSteps.iShouldNavigateToJobsAndCareersPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "About Us functionality",
+    "description": "As a user I want to visit www.wcht.org.uk website",
+    "id": "about-us-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/wcht/org/resources/featurefile/AboutUs.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AboutUs"
+      }
+    ]
+  }
+]
